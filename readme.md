@@ -6,7 +6,7 @@ The CLI calculator has all the required features mentioned in the gist.
 
 Additionally, it is able to take in an unlimited number of arguments to the add and multiply operations. It is designed in a way that if an addtional operation is needed, it can be easily added.
 
-(Important: The has been tested to run in both Linux (Ubuntu) and Windows environments. However, the automation tests only run in Linux)
+(Important: The app has been tested to run in both Linux (Ubuntu) and Windows environments. However, the automation tests only run in Linux)
 
 How to run -
 1. Download the source code either from github or zip file. Extract zip file.

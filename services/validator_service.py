@@ -1,5 +1,7 @@
-# This service can be completed and used to validate if the input argument is malformed
-# Since the base requirements do not require a validation,
-# this service has been left incomplete.
-class ValidatorService():
-    pass
+# This is used to validate if the input argument is malformed
+# incomplete at this time
+from validator_service_abc import ValidatorServiceABC
+
+class ValidatorService(ValidatorServiceABC):
+    def validate_argument(self, args):
+        pass

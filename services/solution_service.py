@@ -22,7 +22,7 @@ class SolutionService(SolutionServiceABC):
 
         except Exception as e:
             print("An error has occured while solving the expression.")
-            print(e)
+            print(e.with_traceback)
     
     # private methods
 

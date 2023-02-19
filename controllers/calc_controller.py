@@ -12,5 +12,5 @@ class CalculationController:
             return result
 
     def __solve_expressions(self, args):
-
+        
         return self._solutionServiceABC.solve_expressions(args)
