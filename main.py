@@ -11,7 +11,8 @@ def main():
 
     result = calcController.handle_args(args)
 
-    print(result)
+    if(result != None):
+        print(result)
 
 
 if __name__ == "__main__":
